@@ -2,11 +2,11 @@
 
 A frontend-only dashboard for internal health coaches to perform quality checks on client meal plans. Built for SIA Health's tech assignment.
 
-## 🎯 Project Overview
+## Project Overview
 
 This tool helps health coaches review meal plans created by nutritionists by performing automated quality checks and providing clear, actionable insights. The focus is on logical validation, clarity, and structured thinking rather than medical accuracy.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -30,7 +30,7 @@ The application will open at `http://localhost:3000`
 npm run build
 ```
 
-## 📋 Features
+## Features
 
 ### 1. Client Summary Section
 - Displays client age, condition (e.g., PCOS), key symptoms, and goals
@@ -100,7 +100,7 @@ For this assignment, AI logic is simulated with rule-based analysis that:
 - Assesses protein distribution for satiety
 - Correlates meal components with logged symptoms
 
-## 🧠 Approach & Methodology
+## Approach & Methodology
 
 ### Overall Architecture
 - **Frontend-only**: No backend, authentication, or database
@@ -132,7 +132,7 @@ src/
 4. **Assumption Transparency**: Each check explicitly states its assumptions
 5. **Progressive Disclosure**: Collapsible sections for detailed information
 
-## 📊 Assumptions Made
+## Assumptions Made
 
 ### Nutrition & Portions
 - **Protein Target**: 10-14g per meal (standard balanced meal recommendation)
@@ -154,7 +154,7 @@ src/
 - **Focus Areas**: Condition alignment, symptom correlation, goal support
 - **No Medical Claims**: Analysis is for quality control, not medical advice
 
-## 🔍 How AI Was Used
+## How AI Was Used
 
 ### Prompt Design
 The AI prompt is structured to:
@@ -183,7 +183,7 @@ This approach demonstrates:
 - How to present insights clearly
 - Responsible AI usage (interpretation, not blind trust)
 
-## 🎨 UI/UX Considerations
+## UI/UX Considerations
 
 ### Design Principles
 - **Clarity First**: Information hierarchy optimized for quick scanning
@@ -202,7 +202,7 @@ This approach demonstrates:
 - Grid-based meal plan display adapts to screen size
 - Readable on tablets and desktops
 
-## 🚧 Improvements with More Time
+## Improvements with More Time
 
 ### Functionality Enhancements
 1. **Real AI Integration**: Connect to OpenAI API or similar for actual AI analysis
@@ -239,7 +239,7 @@ This approach demonstrates:
 4. **Multi-model Ensemble**: Combine multiple AI approaches for robustness
 5. **Feedback Loop**: Learn from coach corrections over time
 
-## 📝 Code Quality
+## Code Quality
 
 ### Best Practices Followed
 - **Clean Code**: Descriptive variable/function names
@@ -255,7 +255,7 @@ With more time, would add:
 - Integration tests for full workflow
 - Edge case validation
 
-## 🤝 Assignment Context
+## Assignment Context
 
 This project was built for **SIA Health's tech assignment** to evaluate:
 - ✅ Data structuring approach
@@ -266,14 +266,13 @@ This project was built for **SIA Health's tech assignment** to evaluate:
 
 **Focus**: Quality control and decision-making support, not medical accuracy.
 
-## 📄 License
+## License
 
 This is an assignment project for SIA Health. Not for production use.
 
-## 👤 Author
+## Author
 
 Built as a technical assignment demonstrating frontend development, logical thinking, and structured problem-solving skills.
 
 ---
 
-**Note**: This tool is for internal quality control purposes only and does not provide medical advice. All nutritional assessments are approximate and should be validated by qualified nutritionists.

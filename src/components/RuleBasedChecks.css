@@ -1,0 +1,194 @@
+.rule-based-checks {
+  margin-bottom: 24px;
+}
+
+.check-section {
+  margin-top: 24px;
+  padding: 20px;
+  background-color: #f7fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.check-section:first-of-type {
+  margin-top: 16px;
+}
+
+.check-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+.check-description {
+  color: #212223;
+  font-size: 14px;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-ok {
+  background-color: #c6f6d5;
+  color: #22543d;
+}
+
+.status-warning {
+  background-color: #feebc8;
+  color: #7c2d12;
+}
+
+.status-needs-improvement {
+  background-color: #fed7d7;
+  color: #742a2a;
+}
+
+.meal-checks {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.meal-check-item {
+  background-color: white;
+  padding: 12px;
+  border-radius: 6px;
+  border-left: 3px solid #4299e1;
+}
+
+.meal-check-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.meal-name {
+  font-weight: 600;
+  color: #2d3748;
+  font-size: 15px;
+}
+
+.check-message {
+  color: #2d2d2f;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.overall-status {
+  background-color: white;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.assumptions-section {
+  margin-top: 16px;
+  padding: 12px;
+  background-color: #edf2f7;
+  border-radius: 6px;
+}
+
+.assumptions-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1b;
+  margin-bottom: 8px;
+}
+
+.assumptions-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.assumptions-list li {
+  padding: 4px 0;
+  padding-left: 16px;
+  position: relative;
+  color: #000000;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.assumptions-list li::before {
+  content: "ℹ";
+  position: absolute;
+  left: 0;
+  color: #121313;
+}
+
+.issues-list,
+.warnings-list {
+  margin-top: 12px;
+  background-color: white;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.issues-title,
+.warnings-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #742a2a;
+  margin-bottom: 8px;
+}
+
+.warnings-title {
+  color: #7c2d12;
+}
+
+.issue-item,
+.warning-item {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #fff5f5;
+  border-radius: 4px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.warning-item {
+  background-color: #fffaf0;
+}
+
+.issue-meal,
+.warning-meal {
+  font-weight: 600;
+  color: #2d3748;
+  text-transform: capitalize;
+}
+
+.issue-detail,
+.warning-detail {
+  color: #4a5568;
+  padding-left: 12px;
+}
+
+.issue-type {
+  color: #231f1f;
+  font-style: normal;
+  padding-left: 12px;
+}
+
+.issue-suggestion {
+  color: #38a169;
+  padding-left: 12px;
+  font-weight: 500;
+}

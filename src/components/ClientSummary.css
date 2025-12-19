@@ -1,0 +1,109 @@
+.client-summary {
+  margin-bottom: 24px;
+}
+
+.client-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.label {
+  font-weight: 600;
+  color: #4a5568;
+  min-width: 100px;
+}
+
+.value {
+  color: #2d3748;
+  font-size: 16px;
+}
+
+.condition-badge {
+  background-color: #fed7d7;
+  color: #c53030;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.info-section {
+  margin-top: 20px;
+}
+
+.subsection-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 6px;
+}
+
+.symptom-list,
+.goal-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.symptom-list li,
+.goal-list li {
+  padding: 8px 0;
+  padding-left: 20px;
+  position: relative;
+  color: #282828;
+}
+
+.symptom-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #fc8181;
+  font-weight: bold;
+}
+
+.goal-list li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #006a2c;
+  font-weight: bold;
+}
+
+.medical-notes {
+  color: #0a0a0a;
+  line-height: 1.6;
+  background-color: #f7fafc;
+  padding: 12px;
+  border-radius: 6px;
+  border-left: 3px solid #4299e1;
+  margin: 0;
+}
+
+.primary-symptoms {
+  color: #0a0a0a;
+  line-height: 1.6;
+  background-color: #fff5f5;
+  padding: 12px;
+  border-radius: 6px;
+  border-left: 3px solid #fc8181;
+  margin: 0;
+}
+
+.concerns-text {
+  color: #0a0a0a;
+  line-height: 1.6;
+  background-color: #fffaf0;
+  padding: 12px;
+  border-radius: 6px;
+  border-left: 3px solid #ed8936;
+  margin: 0;
+}
